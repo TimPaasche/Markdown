@@ -1,6 +1,10 @@
 # WPF Encyclopedia
 
-[[TOC]]
+- [WPF Encyclopedia](#wpf-encyclopedia)
+  - [use of data templates by analyzing the datemtype in an enumerable](#use-of-data-templates-by-analyzing-the-datemtype-in-an-enumerable)
+    - [View (xaml)](#view-xaml)
+    - [Code Behind (xaml.cs)](#code-behind-xamlcs)
+    - [Data Classes (C#)](#data-classes-c)
 
 ## use of data templates by analyzing the datemtype in an enumerable
 
