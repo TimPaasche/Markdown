@@ -82,6 +82,32 @@ namespace WpfTabControlExample {
 ### DataTemplateSelector (C#)
 
 ```c#
+using System.Windows;
+using System.Windows.Controls;
+
+namespace WpfTabControlExample
+{
+    public class ItemDataTemplateSelector : DataTemplateSelector
+    {
+        public DataTemplate ItemTypeATemplate { get; set; }
+        public DataTemplate ItemTypeBTemplate { get; set; }
+
+        public override DataTemplate SelectTemplate(object item, DependencyObject container)
+        {
+            if (item is ItemTypeA)
+            {
+                return ItemTypeATemplate;
+            }
+            else if (item is ItemTypeB)
+            {
+                return ItemTypeBTemplate;
+            }
+
+            return base.SelectTemplate(item, container);
+        }
+    }
+}
+
 ```
 
 ### Data Classes (C#)
