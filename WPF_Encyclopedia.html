@@ -369,7 +369,7 @@ code {
 <ul>
 <li><a href="#wpf-encyclopedia">WPF Encyclopedia</a>
 <ul>
-<li><a href="#use-of-data-templates-by-analyzing-the-datemtype-in-an-enumerable">use of data templates by analyzing the datemtype in an enumerable</a>
+<li><a href="#use-of-datatemplates">Use of DataTemplates</a>
 <ul>
 <li><a href="#view-xaml">View (xaml)</a></li>
 <li><a href="#code-behind-xamlcs">Code Behind (xaml.cs)</a></li>
@@ -380,7 +380,7 @@ code {
 </ul>
 </li>
 </ul>
-<h2 id="use-of-data-templates-by-analyzing-the-datemtype-in-an-enumerable">use of data templates by analyzing the datemtype in an enumerable</h2>
+<h2 id="use-of-datatemplates">Use of DataTemplates</h2>
 <p>In this example, we've defined a DataTemplate with the key &quot;ItemTemplate&quot; in the Window's resources. The TabControl's ContentTemplate is set to this DataTemplate, which will be used to display the content of each tab. The ItemTemplate for tab headers is also defined within the TabControl itself.</p>
 <h3 id="view-xaml">View (xaml)</h3>
 <pre class="hljs"><code><div><span class="hljs-tag">&lt;<span class="hljs-name">Window</span> <span class="hljs-attr">x:Class</span>=<span class="hljs-string">"WpfTabControlExample.MainWindow"</span>
@@ -473,7 +473,7 @@ code {
 
 </div></code></pre>
 <h3 id="data-classes-c">Data Classes (C#)</h3>
-<p><strong>Data Class A:</strong></p>
+<p>Data Class A:</p>
 <pre class="hljs"><code><div><span class="hljs-keyword">namespace</span> <span class="hljs-title">WpfTabControlExample</span> {
     <span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-title">ItemTypeA</span> {
 
@@ -483,7 +483,7 @@ code {
     }
 }
 </div></code></pre>
-<p><strong>Data Class B:</strong></p>
+<p>Data Class B:</p>
 <pre class="hljs"><code><div><span class="hljs-keyword">namespace</span> <span class="hljs-title">WpfTabControlExample</span> {
     <span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-title">ItemTypeB</span> {
         <span class="hljs-keyword">public</span> <span class="hljs-keyword">string</span> Header { <span class="hljs-keyword">get</span>; <span class="hljs-keyword">set</span>; }
