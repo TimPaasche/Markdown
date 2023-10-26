@@ -1,13 +1,13 @@
 # WPF Encyclopedia
 
 - [WPF Encyclopedia](#wpf-encyclopedia)
-  - [use of data templates by analyzing the datemtype in an enumerable](#use-of-data-templates-by-analyzing-the-datemtype-in-an-enumerable)
+  - [Use of DataTemplates](#use-of-datatemplates)
     - [View (xaml)](#view-xaml)
     - [Code Behind (xaml.cs)](#code-behind-xamlcs)
     - [DataTemplateSelector (C#)](#datatemplateselector-c)
     - [Data Classes (C#)](#data-classes-c)
 
-## use of data templates by analyzing the datemtype in an enumerable
+## Use of DataTemplates
 
 In this example, we've defined a DataTemplate with the key "ItemTemplate" in the Window's resources. The TabControl's ContentTemplate is set to this DataTemplate, which will be used to display the content of each tab. The ItemTemplate for tab headers is also defined within the TabControl itself.
 
@@ -112,7 +112,7 @@ namespace WpfTabControlExample
 
 ### Data Classes (C#)
 
-**Data Class A:**
+Data Class A:
 
 ```c#
 namespace WpfTabControlExample {
@@ -125,7 +125,7 @@ namespace WpfTabControlExample {
 }
 ```
 
-**Data Class B:**
+Data Class B:
 
 ```c#
 namespace WpfTabControlExample {
