@@ -12,13 +12,11 @@
  *--------------------------------------------------------------------------------------------*/
 
 body {
-	font-family: 'Cascadia Code', monospace; /*var(--vscode-markdown-font-family, -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif);*/
+	font-family: var(--vscode-markdown-font-family, -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif);
 	font-size: var(--vscode-markdown-font-size, 14px);
 	padding: 0 26px;
 	line-height: var(--vscode-markdown-line-height, 22px);
 	word-wrap: break-word;
-	background-color: #1e1e1e;
-	color: #ffffff; /* Text color in dark mode */
 }
 
 #code-csp-warning {
@@ -375,6 +373,7 @@ code {
 <ul>
 <li><a href="#view-xaml">View (xaml)</a></li>
 <li><a href="#code-behind-xamlcs">Code Behind (xaml.cs)</a></li>
+<li><a href="#datatemplateselector-c">DataTemplateSelector (C#)</a></li>
 <li><a href="#data-classes-c">Data Classes (C#)</a></li>
 </ul>
 </li>
@@ -444,6 +443,34 @@ code {
         }
     }
 }
+</div></code></pre>
+<h3 id="datatemplateselector-c">DataTemplateSelector (C#)</h3>
+<pre class="hljs"><code><div><span class="hljs-keyword">using</span> System.Windows;
+<span class="hljs-keyword">using</span> System.Windows.Controls;
+
+<span class="hljs-keyword">namespace</span> <span class="hljs-title">WpfTabControlExample</span>
+{
+    <span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-title">ItemDataTemplateSelector</span> : <span class="hljs-title">DataTemplateSelector</span>
+    {
+        <span class="hljs-keyword">public</span> DataTemplate ItemTypeATemplate { <span class="hljs-keyword">get</span>; <span class="hljs-keyword">set</span>; }
+        <span class="hljs-keyword">public</span> DataTemplate ItemTypeBTemplate { <span class="hljs-keyword">get</span>; <span class="hljs-keyword">set</span>; }
+
+        <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">override</span> DataTemplate <span class="hljs-title">SelectTemplate</span>(<span class="hljs-params"><span class="hljs-keyword">object</span> item, DependencyObject container</span>)</span>
+        {
+            <span class="hljs-keyword">if</span> (item <span class="hljs-keyword">is</span> ItemTypeA)
+            {
+                <span class="hljs-keyword">return</span> ItemTypeATemplate;
+            }
+            <span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span> (item <span class="hljs-keyword">is</span> ItemTypeB)
+            {
+                <span class="hljs-keyword">return</span> ItemTypeBTemplate;
+            }
+
+            <span class="hljs-keyword">return</span> <span class="hljs-keyword">base</span>.SelectTemplate(item, container);
+        }
+    }
+}
+
 </div></code></pre>
 <h3 id="data-classes-c">Data Classes (C#)</h3>
 <p><strong>Data Class A:</strong></p>
