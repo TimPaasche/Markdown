@@ -1,11 +1,10 @@
 # WPF Encyclopedia
 
-- [WPF Encyclopedia](#wpf-encyclopedia)
-  - [Use of DataTemplates](#use-of-datatemplates)
-    - [View (xaml)](#view-xaml)
-    - [Code Behind (xaml.cs)](#code-behind-xamlcs)
-    - [DataTemplateSelector (C#)](#datatemplateselector-c)
-    - [Data Classes (C#)](#data-classes-c)
+- [Use of DataTemplates](#use-of-datatemplates)
+  - [View (xaml)](#view-xaml)
+  - [Code Behind (xaml.cs)](#code-behind-xamlcs)
+  - [DataTemplateSelector (C#)](#datatemplateselector-c)
+  - [Data Classes (C#)](#data-classes-c)
 
 ## Use of DataTemplates
 
