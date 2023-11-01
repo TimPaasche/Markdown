@@ -1,15 +1,16 @@
 # Git Encyclopedia
 
-- [Terminal Commands \& IDEs](#terminal-commands--ides)
-  - [Git with Git Bash](#git-with-git-bash)
-    - [Getting \& Creating Projects](#getting--creating-projects)
-    - [Basic Snapshotting](#basic-snapshotting)
-    - [Branching \& Merging](#branching--merging)
-    - [Sharing \& Updating Projects](#sharing--updating-projects)
-    - [Inspection \& Comparison](#inspection--comparison)
-  - [Git with Git GUI](#git-with-git-gui)
-  - [Integrated Git in Visual Studio](#integrated-git-in-visual-studio)
-  - [Integrated Git in Visual Studio Code](#integrated-git-in-visual-studio-code)
+- [Git Encyclopedia](#git-encyclopedia)
+  - [Terminal Commands \& IDEs](#terminal-commands--ides)
+    - [Git with Git Bash](#git-with-git-bash)
+      - [Getting \& Creating Projects](#getting--creating-projects)
+      - [Basic Snapshotting](#basic-snapshotting)
+      - [Branching \& Merging](#branching--merging)
+      - [Sharing \& Updating Projects](#sharing--updating-projects)
+      - [Inspection \& Comparison](#inspection--comparison)
+    - [Git with Git GUI](#git-with-git-gui)
+    - [Integrated Git in Visual Studio](#integrated-git-in-visual-studio)
+    - [Integrated Git in Visual Studio Code](#integrated-git-in-visual-studio-code)
 
 ## Terminal Commands & IDEs
 
@@ -18,14 +19,14 @@
 #### Getting & Creating Projects
 
 | Command                                                           | Description                                |
-|-------------------------------------------------------------------|--------------------------------------------|
+| ----------------------------------------------------------------- | ------------------------------------------ |
 | `git init`                                                        | Initialize a local Git repository          |
 | `git clone ssh://git@github.com/[username]/[repository-name].git` | Create a local copy of a remote repository |
 
 #### Basic Snapshotting
 
 | Command                            | Description                                       |
-|------------------------------------|---------------------------------------------------|
+| ---------------------------------- | ------------------------------------------------- |
 | `git status`                       | Check status                                      |
 | `git add [file-name.txt]`          | Add a file to the staging area                    |
 | `git add -A`                       | Add all new and changed files to the staging area |
@@ -35,7 +36,7 @@
 #### Branching & Merging
 
 | Command                                              | Description                                             |
-|------------------------------------------------------|---------------------------------------------------------|
+| ---------------------------------------------------- | ------------------------------------------------------- |
 | `git branch`                                         | List branches (the asterisk denotes the current branch) |
 | `git branch -a`                                      | List all branches (local and remote)                    |
 | `git branch [branch name]`                           | Create a new branch                                     |
@@ -55,7 +56,7 @@
 #### Sharing & Updating Projects
 
 | Command                                                                           | Description                                                 |
-|-----------------------------------------------------------------------------------|-------------------------------------------------------------|
+| --------------------------------------------------------------------------------- | ----------------------------------------------------------- |
 | `git push origin [branch name]`                                                   | Push a branch to your remote repository                     |
 | `git push -u origin [branch name]`                                                | Push changes to remote repository (and remember the branch) |
 | `git push`                                                                        | Push changes to remote repository (remembered branch)       |
@@ -68,7 +69,7 @@
 #### Inspection & Comparison
 
 | Command                                    | Description                    |
-|--------------------------------------------|--------------------------------|
+| ------------------------------------------ | ------------------------------ |
 | `git log`                                  | View changes                   |
 | `git log --summary`                        | View changes (detailed)        |
 | `git log --oneline`                        | View changes (briefly)         |

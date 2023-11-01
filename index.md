@@ -1,4 +1,4 @@
-# Public Nodes of Tim Paasche
+# Public Notes of Tim Paasche
 
 This is a helper page where public notes and quick helpers can be shared by me
 
