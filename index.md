@@ -6,3 +6,4 @@ This is a helper page where public notes and quick helpers can be shared by me
 
 - [WPF-Encyclopdia](./WPF_Encyclopdedia/WPF_Encyclopedia.html)
 - [Git-Encyclopdia](./Git_Encyclopedia/Git_Encyclopedia.html)
+- [DFSS-Notes](./DFSS_Notes/DFSS_Notes.html)
