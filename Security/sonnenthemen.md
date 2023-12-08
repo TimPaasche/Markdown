@@ -155,7 +155,7 @@
 ### OPC UA
 
 - plattformunabhängige, sichere und erweiterbare Technologie
-<img src="./image-1.png" width="600">
+<img src="https://raw.githubusercontent.com/TimPaasche/PublicNotes/main/Security/image-1.png" width="600">
 
 ### IPSec (Internet Protocol Security)
 
