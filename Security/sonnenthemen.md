@@ -60,7 +60,20 @@
 
 ## Diverse Angriffsvektoren und besprochene Maßnahmen zur Vermeidung, s. BSI Top 10 Threads zur Vorbereitung
 
-- 
+| Rang | Bedrohung/Trend                                     | Beschreibung                                             |
+|------|-----------------------------------------------------|---------------------------------------------------------|
+| 1    | Einschleusen von Schadsoftware über Wechseldatenträger und mobile Systeme | Verbreitung von Malware über externe Datenträger und mobile Geräte |
+| 2    | Infektion mit Schadsoftware über Internet und Intranet | Angriffe durch Malware über das Internet und interne Netzwerke |
+| 3    | Menschliches Fehlverhalten und Sabotage              | Sicherheitsrisiken aufgrund von Fehlern oder böswilligem Verhalten von Mitarbeitern |
+| 4    | Kompromittierung von Extranet und Cloud-Komponenten | Angriffe auf externe Netzwerke und Cloud-Dienste |
+| 5    | Social Engineering und Phishing                      | Täuschung von Personen zur Erlangung von sensiblen Informationen |
+| 6    | (D)DoS Angriffe                                      | Überlastungsangriffe zur Störung oder Blockierung von Diensten |
+| 7    | Internet-verbundene Steuerungskomponenten            | Gefährdung durch Angriffe auf vernetzte Steuerungssysteme |
+| 8    | Einbruch über Fernwartungszugänge                    | Unbefugter Zugriff auf Systeme über Fernwartungskanäle |
+| 9    | Technisches Fehlverhalten und höhere Gewalt          | Störungen und Ausfälle aufgrund technischer Fehler oder Naturkatastrophen |
+| 10   | Soft- und Hardwareschwachstellen in der Lieferkette  | Sicherheitslücken in Software- und Hardwarekomponenten durch Lieferanten |
+
+
 
 ## Unterschied Safety und Security in Automation
 
